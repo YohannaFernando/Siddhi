@@ -11,10 +11,11 @@ The following is the syntax of a query that defines a new event stream.
   
 ### Paramaters
 |Parameter                                  |Description    								|
-| -------------                             |:-------------------------------------------------------------------------:|
+| -------------                             |-------------------------------------------------------------------------|
 | `stream name`                             | The name of the event stream to be created.				| 
 |  `<attribute name> <attribute type>`      | The schema of an event stream is defined by adding the name and the type of each 							attribute as a value pair.
-					    | * attribute name: A unique name for the attribute.
-					    |* attribute type: The data type of the attribute value. This can be `STRING`,							`INT`, `LONG`, `DOUBLE`, `FLOAT` or `BOOLEAN`.      		  |
+* attribute name: A unique name for the attribute.
+* attribute type: The data type of the attribute value. This can be `STRING`,							`INT`, `LONG`, `DOUBLE`, `FLOAT` or `BOOLEAN`.      		  |
+					    
 
 
